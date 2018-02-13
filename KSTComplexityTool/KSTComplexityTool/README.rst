@@ -12,10 +12,8 @@ The tool takes two files, each of which represents one knowledge space. The file
 
 A knowledge space in which item number 1 surmises item number 2 and item number 7 also surmises item number 2 is given below:
 
-```sh
 1, 2
 7, 2
-```
 
 Note
 ====
