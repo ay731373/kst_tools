@@ -1,13 +1,12 @@
-# KSTDifferenceTool
+# KSTComplexityTool
 
-
-Software tool for identifying difference between two knowledge spaces.
+Software tool for determining cognitive complexity for items in a knowledge space.
 
 ## Description
 
-The tool takes two files, each of which represents one knowledge space. The files should be in CSV format and each row in the file should represent one edge in the knowldge space. 
+The tool takes a file in CSV format in which each row represents one edge in the knowldge space and assigns cognitive complexity to each item.
 
-A knowledge space in which item number 1 surmises item number 2 and item number 7 also surmises item number 2 is given below:
+A CSV file with a knowledge space in which item number 1 surmises item number 2 and item number 7 also surmises item number 2 is given below:
 ```
 1, 2
 7, 2
