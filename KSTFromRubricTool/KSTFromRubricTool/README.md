@@ -1,19 +1,15 @@
-=================
-KSTDifferenceTool
-=================
+# KSTFromRubricTool
 
+software tool for constructing knowledge space from experts’ estimation of cognitive complexity.
 
-Software tool for identifying difference between two knowledge spaces.
+## Description
 
-Description
-===========
+The tool takes one file that represents the estimation of cognitive complexity for test items. The file should be in CSV format and each row in the file should represent one problem and its estimated cognitive complexity. 
 
-The tool takes two files, each of which represents one knowledge space. The files should be in CSV format and each row in the file should represent one edge in the knowldge space. 
+If item number 7 had cognitive complexity rated with 1 and item number 4 had cognitive complexity 3, the file should look like the exmaple given below:
 
-A knowledge space in which item number 1 surmises item number 2 and item number 7 also surmises item number 2 is given below:
-
-1, 2
-7, 2
+7, 1
+4, 3
 
 Note
 ====
