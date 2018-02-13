@@ -8,8 +8,10 @@ The tool takes one file that represents the estimation of cognitive complexity f
 
 If item number 7 had cognitive complexity rated with 1 and item number 4 had cognitive complexity 3, the file should look like the exmaple given below:
 
+```
 7, 1
 4, 3
+```
 
 Note
 ====
